@@ -13,5 +13,3 @@ I hold a **CompTIA Security+ certification** and an **IBM Cybersecurity Analyst 
 3. **Reach Out**: Feel free to connect for discussions or feedback!
 
 4. Thank you for your time!
-5. Best regards,
-6. Emilia
