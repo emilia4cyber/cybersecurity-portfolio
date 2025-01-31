@@ -2,8 +2,8 @@
 
 ##  Steps I followed:
 1. Logged into AWS IAM Identity Center.
-2. Navigated to **Settings** → **Identity Source**.
-3. Selected **Identity Center Directory** (the other 2 options available being Active Directory and External identity providers).
+2. Navigated to Settings, then Identity Source.
+3. Selected Identity Center Directory (the other 2 options available being Active Directory and External identity providers).
 
 ##  Proof of Work:
 Screenshot: https://ibb.co/tPk3H2Lm
@@ -37,12 +37,12 @@ Screenshot: https://ibb.co/ZRcc7Gcv
 
 ## Steps I followed:
 1. Accessed the AWS IAM Identity Center left panel.
-2. Clicked on **Permission sets** under the **AWS Accounts** section.
-3. Chose the option **Create permission set**.
-4. Selected **AdministratorAccess** (for full admin access)
+2. Clicked on Permission sets under the AWS Accounts section.
+3. Chose the option Create permission set.
+4. Selected AdministratorAccess (for full admin access).
 5. Added the configuration to the user emilia.mat (the root admin) from the AWS accounts section
-6. Selected **test_user2025** and assigned the previously created **AdministratorAccess** permission set to the user.
-7. Clicked **Assign** to apply the permission.
+6. Selected test_user2025 and assigned the previously created AdministratorAccess permission set to the user.
+7. Clicked Assign** to apply the permission.
 
 ##  Proof of Work:
 Screenshots: https://ibb.co/BSMYb69 and https://ibb.co/RkFhKbsy
