@@ -47,6 +47,23 @@ Screenshot: https://ibb.co/ZRcc7Gcv
 ##  Proof of Work:
 Screenshots: https://ibb.co/BSMYb69 and https://ibb.co/RkFhKbsy
    
+# Exercise 5: Creating an IAM Policy Using the Visual Editor and adding it to the user
+
+## Steps I followed:
+
+1. Accessed Identity and Access Management (IAM), from there I chose Policies and Create policy.
+3. Chose the Visual editor.
+4. Selected S3 as the service.
+5. Chose the actions ListBucket and GetObject to grant read-only access to S3.
+6. At resources I chose "all".
+7. Named the policy `S3-ReadOnly-Access` and created it.
+8. Applied the policy to test_user2025.
+
+ ##  Proof of Work:
+Screenshots: https://ibb.co/GfgfbpqF, https://ibb.co/99v1VRnw and https://ibb.co/LXS7TcnW
+
+
+
 
 
 
