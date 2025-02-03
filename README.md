@@ -1,15 +1,13 @@
+This report detects the Credential Dumping (T1003) technique using Windows Event Logs and Command Prompt. 
+I`ve focused here on detecting suspicious activities through two key Event IDs:
+a.4624 (Logon): indicating successful logon attempts.
+b.4672 (Special Logon): indicating privileged account logons.
 
-# Cybersecurity Portfolio  
- 
- Welcome to my **Cybersecurity Portfolio**!
- I am passionate about **cybersecurity, threat detection, and log analysis**, and I constantly seek to **deepen my knowledge** in this ever-evolving field.  
+Short intro:
+-Event ID 4624: indicates unusual times or sources from where the logs are generated.
+-Event ID 4672: shows logons for accounts with administrator rights.
 
-I hold a **CompTIA Security+ certification** and an **IBM Cybersecurity Analyst diploma**, and I am dedicated to gaining hands-on experience by working on real-world security projects.  
- Here, I showcase my hands-on projects in **information security and cybersecurity** using different tools (see branches).  
-
-## How to Use  
-1. **Explore Each Branch**: Click on the links above to view individual projects.  
-2. **Download PDFs**: Each project contains a detailed report with screenshots.  
-3. **Reach Out**: Feel free to connect for discussions or feedback!
-
-4. Thank you for your time!
+Mitigation techniques:
+- MFA for privileged accounts.
+- Regularly monitor logon events for suspicious behavior.
+- Implement least privilege for all users.
