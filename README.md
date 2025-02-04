@@ -1,4 +1,4 @@
-This report detects the Credential Dumping (T1003) technique using Windows Event Logs and Command Prompt. 
+This report detects the Credential Dumping (T1003) and thhe Lateral Movement (TA0008) techniques using Windows Event Logs and Command Prompt and RDT. 
 I`ve focused here on detecting suspicious activities through two key Event IDs:
 a.4624 (Logon): indicating successful logon attempts.
 b.4672 (Special Logon): indicating privileged account logons.
@@ -11,3 +11,4 @@ Mitigation techniques:
 - MFA for privileged accounts.
 - Regularly monitor logon events for suspicious behavior.
 - Implement least privilege for all users.
+- Restrict RDP access
