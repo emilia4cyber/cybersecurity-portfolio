@@ -13,9 +13,9 @@ I have used **Windows Event Logs** from Event Viewer (Windows logs -> Security) 
      
     **How I generated it**:
      
-     a) I had to activate Security Auditing from the Group Policy Editor, mainly the options "Audit Logon Events" and "Audit process tracking". (check screenshot - https://ibb.co/FqgnPkm8)
+     a) I had to activate Security Auditing from the Group Policy Editor, mainly the options "Audit Logon Events" and "Audit process tracking". (check [screenshot](https://ibb.co/FqgnPkm8))
      
-   b) In Command Prompt I ran the command ``` rundll32.exe C:\Windows\System32\shell32.dll,Control_RunDLL ``` (check screenshot- https://ibb.co/S7xLdz7n)
+   b) In Command Prompt I ran the command ``` rundll32.exe C:\Windows\System32\shell32.dll,Control_RunDLL ``` (check [screenshot](https://ibb.co/S7xLdz7n))
    
     c) Then I accessed Event Viewer and could observe the following details:
    - **Event Example**:
@@ -30,7 +30,7 @@ I have used **Windows Event Logs** from Event Viewer (Windows logs -> Security) 
 
      ```
 
-   - **Screenshot with more details**: https://ibb.co/fYNfT06y
+   - [Screenshot with more details](https://ibb.co/fYNfT06y)
 ---
 2. **Event ID 4672: Special Logon**
    - **Purpose**: This event lets you know whenever an account assigned any "administrator equivalent" user rights logs on and is often associated with the Event ID 4624.
@@ -47,7 +47,7 @@ I have used **Windows Event Logs** from Event Viewer (Windows logs -> Security) 
   
      ```
 
-   - **Screenshot with more details**: https://ibb.co/1GTRzfNg 
+   - [Screenshot with more details](https://ibb.co/1GTRzfNg)
 ---
 
 ### Mitigation Strategies
