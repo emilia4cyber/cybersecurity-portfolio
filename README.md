@@ -1,15 +1,14 @@
+This repository contains a comprehensive threat intelligence analysis of Windows Locker Ransomware using OpenCTI.
 
-# Cybersecurity Portfolio  
- 
- Welcome to my **Cybersecurity Portfolio**!
- I am passionate about **cybersecurity, threat detection, and log analysis**, and I constantly seek to **deepen my knowledge** in this ever-evolving field.  
+The report details MITRE ATT&CK mappings, Indicators of Compromise (IOC), along with detection & mitigation strategies against the ransomware threat.
 
-I hold a **CompTIA Security+ certification** and an **IBM Cybersecurity Analyst diploma**, and I am dedicated to gaining hands-on experience by working on real-world security projects.  
- Here, I showcase my hands-on projects in **information security and cybersecurity** using different tools (see branches).  
+---
+**Highlights**:
 
-## How to Use  
-1. **Explore Each Branch**: Click on the links above to view individual projects.  
-2. **Download PDFs**: Each project contains a detailed report with screenshots.  
-3. **Reach Out**: Feel free to connect for discussions or feedback!
+1. Applied threat intelligence and investigated Windows Locker in OpenCTI & AlienVault OTX.
 
-4. Thank you for your time!
+2. Identified techniques like T1486 (Data Encrypted for Impact) & T1112 (Modify Registry) in the MITRE ATT&CK Mapping.
+
+3. Analized IOCs, like malicious file hashes, domains, and URLs linked to Windows Locker.
+
+4. Proposed detection & mitigation techniques like implementing SIEM monitoring, endpoint protection, and backup strategies.
