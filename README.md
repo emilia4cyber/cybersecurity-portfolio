@@ -1,5 +1,4 @@
 # cybersecurity-portfolio
-A collection of my cybersecurity projects and research
 This branch contains my **Splunk cybersecurity projects**, where I analyze security logs, detect threats, and create dashboards and alerts.  
 
 ##  Project Overview  
@@ -20,7 +19,7 @@ This project includes:
 - The analysis was performed using **zip data from [secrepo.com and docs.splunk.com]**, ingested into Splunk for security monitoring.  
 
 ##  Skills Demonstrated  
-✅ Writing **Splunk SPL queries**  
-✅ Creating **dashboards & alerts**  
-✅ Performing **log analysis** for cybersecurity  
-✅ **Threat hunting** using real-world data  
+- Writing **Splunk SPL queries**  
+- Creating **dashboards & alerts**  
+- Performing **log analysis** for cybersecurity  
+- Threat hunting using real-world data  
