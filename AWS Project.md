@@ -6,7 +6,7 @@
 3. Selected Identity Center Directory (the other 2 options available being Active Directory and External identity providers).
 
 ##  Proof of Work:
-Screenshot: https://ibb.co/tPk3H2Lm
+[Screenshot](https://ibb.co/tPk3H2Lm)
 
 
 # Exercise 2: Creating a User
@@ -18,7 +18,7 @@ Screenshot: https://ibb.co/tPk3H2Lm
 4. Made sure the account is activated and I could login without any issues.
 
  ##  Proof of Work:
-Screenshots: https://ibb.co/4nYTwVcw and https://ibb.co/C3hDsxPB
+Screenshots: [1](https://ibb.co/4nYTwVcw) and [2](https://ibb.co/C3hDsxPB)
 
 
 # Exercise 3: Creating a Group and Adding a User
@@ -30,7 +30,7 @@ Screenshots: https://ibb.co/4nYTwVcw and https://ibb.co/C3hDsxPB
 4. Added the newly created user in the group.
 
 ##  Proof of Work:
-Screenshot: https://ibb.co/ZRcc7Gcv 
+[Screenshot](https://ibb.co/ZRcc7Gcv)
 
 
 # Exercise 4: Creating a Permission Set and Applying the Permission Set to the AWS Account
@@ -45,7 +45,7 @@ Screenshot: https://ibb.co/ZRcc7Gcv
 7. Clicked Assign** to apply the permission.
 
 ##  Proof of Work:
-Screenshots: https://ibb.co/BSMYb69 and https://ibb.co/RkFhKbsy
+Screenshots: [1](https://ibb.co/BSMYb69) and [2](https://ibb.co/RkFhKbsy)
    
 # Exercise 5: Creating an IAM Policy Using the Visual Editor and adding it to the user
 
@@ -60,7 +60,7 @@ Screenshots: https://ibb.co/BSMYb69 and https://ibb.co/RkFhKbsy
 8. Applied the policy to test_user2025.
 
  ##  Proof of Work:
-Screenshots: https://ibb.co/GfgfbpqF, https://ibb.co/99v1VRnw and https://ibb.co/LXS7TcnW
+Screenshots: [1](https://ibb.co/GfgfbpqF), [2](https://ibb.co/99v1VRnw) and [3](https://ibb.co/LXS7TcnW)
 
 
 
