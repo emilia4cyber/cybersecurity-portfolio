@@ -1,15 +1,29 @@
+# AWS Backup Strategy Project Overview
 
-# Cybersecurity Portfolio  
- 
- Welcome to my **Cybersecurity Portfolio**!
- I am passionate about **cybersecurity, threat detection, and log analysis**, and I constantly seek to **deepen my knowledge** in this ever-evolving field.  
+With this project I wanted to create a  Backup plan, in which to include IAM role configuration, cross-region backups, automated alerts, and disaster recovery.
 
-I hold a **CompTIA Security+ certification** and an **IBM Cybersecurity Analyst diploma**, and I am dedicated to gaining hands-on experience by working on real-world security projects.  
- Here, I showcase my hands-on projects in **information security and cybersecurity** using different tools (see branches).  
+## Steps I followed:
 
-## How to Use  
-1. **Explore Each Branch**: Click on the links above to view individual projects.  
-2. **Download PDFs**: Each project contains a detailed report with screenshots.  
-3. **Reach Out**: Feel free to connect for discussions or feedback!
+### 1. IAM Role Configuration
+- Created `Backup-Role` and attached policies:
+  - `AWSBackupServiceRolePolicyForBackup`
+  - `AmazonRDSFullAccess`, `AmazonDynamoDBFullAccess`, `AmazonElasticFileSystemFullAccess`
+  - `IAMReadOnlyAccess`
 
-4. Thank you for your time!
+### 2. Cross-Region Backup Setup
+- Created `AWSBackupServiceRolePolicyForCrossRegionBackup`
+- Assigned it to `AWSBackupCrossRegionRole` with further backup policies
+
+### 3. Backup Plans & Vaults
+- Configured backup plans for RDS, DynamoDB, and EFS
+- Stored backups in dedicated vaults with cross-region replication to Asia Pacific (Mumbai)
+
+### 4. Backup Vault Lock
+- Applied a 4-year lock on `Dynamo-Backup-Vault` to prevent accidental deletion
+
+### 5. Automated Backup Alerts
+- **SNS:** Created `BackupAlerts` topic and email subscription
+- **EventBridge:** Created `BackupStatusAlerts` rule linked to SNS
+- Tested by simulating a backup failure and confirmed email alerts
+
+Hope you find my work interesting! :)
