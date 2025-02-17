@@ -1,15 +1,14 @@
+# PCAP Traffic Analysis Report
 
-# Cybersecurity Portfolio  
- 
- Welcome to my **Cybersecurity Portfolio**!
- I am passionate about **cybersecurity, threat detection, and log analysis**, and I constantly seek to **deepen my knowledge** in this ever-evolving field.  
+## Overview
+Analyzed network traffic from **Malware Traffic Analysis (July 19, 2019)** using **DynamiteLab**.
 
-I hold a **CompTIA Security+ certification** and an **IBM Cybersecurity Analyst diploma**, and I am dedicated to gaining hands-on experience by working on real-world security projects.  
- Here, I showcase my hands-on projects in **information security and cybersecurity** using different tools (see branches).  
+## Summary
+- **High TCP Traffic (56.87%)**: Potential congestion or large file transfers.
+- **DNS Traffic (34.60%)**: Possible DNS tunneling.
+- **Unknown Traffic (15.17%)**: Further analysis needed (potential malware).
+- **Long Connections & Large Data (7.2MB sent)**: Investigate for malicious activity.
 
-## How to Use  
-1. **Explore Each Branch**: Click on the links above to view individual projects.  
-2. **Download PDFs**: Each project contains a detailed report with screenshots.  
-3. **Reach Out**: Feel free to connect for discussions or feedback!
-
-4. Thank you for your time!
+## Next Steps
+- Inspect "Unknown" traffic with **Wireshark**.
+- Cross-check findings with **VirusTotal** and perform endpoint analysis.
