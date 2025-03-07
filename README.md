@@ -1,15 +1,29 @@
+# ISO 27001 Risk Management Showcase
 
-# Cybersecurity Portfolio  
- 
- Welcome to my **Cybersecurity Portfolio**!
- I am passionate about **cybersecurity, threat detection, and log analysis**, and I constantly seek to **deepen my knowledge** in this ever-evolving field.  
+## Project Overview
 
-I hold a **CompTIA Security+ certification** and an **IBM Cybersecurity Analyst diploma**, and I am dedicated to gaining hands-on experience by working on real-world security projects.  
- Here, I showcase my hands-on projects in **information security and cybersecurity** using different tools (see branches).  
+This repository demonstrates my practical understanding of **ISO 27001 Risk Management** through a **Risk Assessment** and **Risk Treatment Plan** for a fictional laptop/computers supplier company, named **Heroland**. 
+This project is accomplished after successfully completing the course **ISO/IEC 27001 Lead Implementer**.
 
-## How to Use  
-1. **Explore Each Branch**: Click on the links above to view individual projects.  
-2. **Download PDFs**: Each project contains a detailed report with screenshots.  
-3. **Reach Out**: Feel free to connect for discussions or feedback!
+##  Files explanation
 
-4. Thank you for your time!
+- **`Risk_Assessment_Template.xlsx`**: Template for assessing risks based on ISO 27001.
+- **`Risk_Assessment_Example.pdf`**: Hier I completed the risk assessment for **Heroland**, including risk scores and ownerships.
+- **`Risk_Treatment_Plan_Example.md`**: In this MD I have offered mitigation actions against the risks found previously.
+
+## Concepts Demonstrated
+
+- **Risk Assessment**: Through the identification of assets, threats, and vulnerabilities, with risk categorization and scoring.
+- **Risk Treatment**: Selecting and applying treatment options (Mitigate, Accept, Transfer, Avoid) with appropriate controls.
+- **ISO 27001 in Practice**: Real-world application of ISO 27001 principles, creating actionable deliverables for an ISMS.
+- **Risk Ownership**: Assigning clear accountability for risks within the organization.
+
+## How it works:
+
+1. Read through this `README.md` for an overview.
+2. Explore the **Risk_Assessment_Template.xlsx** and **Risk_Assessment_Example.pdf** to understand the risk assessment process.
+3. Check the **Risk_Treatment_Plan_Example.md** to find out how the risk treatments are planned and assigned.
+
+## Thank you!
+
+
