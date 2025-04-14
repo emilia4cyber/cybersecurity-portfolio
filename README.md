@@ -1,15 +1,10 @@
 
-# Cybersecurity Portfolio  
+# About the project
  
- Welcome to my **Cybersecurity Portfolio**!
- I am passionate about **cybersecurity, threat detection, and log analysis**, and I constantly seek to **deepen my knowledge** in this ever-evolving field.  
+In this new project I am planning to simulate a phishing email scenario associating it with MITRE ATT&CK techniques. 
+In addition, I will also provide with methods to protect and detect such phishing attacks early on, because it's better to prevent than "to treat".
 
-I hold a **CompTIA Security+ certification** and an **IBM Cybersecurity Analyst diploma**, and I am dedicated to gaining hands-on experience by working on real-world security projects.  
- Here, I showcase my hands-on projects in **information security and cybersecurity** using different tools (see branches).  
+# Purpose of the project
+To educate the users on how phishing emails work, how to stay safe and report suspicious activities.
 
-## How to Use  
-1. **Explore Each Branch**: Click on the links above to view individual projects.  
-2. **Download PDFs**: Each project contains a detailed report with screenshots.  
-3. **Reach Out**: Feel free to connect for discussions or feedback!
-
-4. Thank you for your time!
+**The links and data do not exist, they are not real and do not represent a threat.
