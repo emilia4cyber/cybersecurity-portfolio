@@ -70,10 +70,15 @@ Therefore, I've used a **`.docx` file** as an attachment, which remains an avail
 
 ## Recommendations for users
 1 Always check email sender domains and verify legitimacy (I would recommend sites like VirusTotal to check it out).
+
 2 Hover over links before clicking (if not sure about the destination, check number 1)
+
 3 Avoid downloading files from unknown sources or emails you didn't expect.
+
 4 Report everything suspicious to your security teams.
+
 5 Don’t respond to threatening or urgent messages without verifying their source. 
+
 
 Just THINK before. Ask yourself, what makes this true?
 Think like hackers and invest in your security awareness.
