@@ -1,15 +1,20 @@
 
-# Cybersecurity Portfolio  
+# [Zero Day RAT-Analyse.pdf](https://github.com/user-attachments/files/25372981/Zero.Day.RAT-Analyse.pdf)
  
- Welcome to my **Cybersecurity Portfolio**!
- I am passionate about **cybersecurity, threat detection, and log analysis**, and I constantly seek to **deepen my knowledge** in this ever-evolving field.  
+Dieses Projekt analysiert Zero-Day RAT, ein neu identifiziertes kommerzielles Mobile-Spyware-Toolkit, das vollständigen Fernzugriff auf Android- und iOS-Geräte bietet.
 
-I hold a **CompTIA Security+ certification** and an **IBM Cybersecurity Analyst diploma**, and I am dedicated to gaining hands-on experience by working on real-world security projects.  
- Here, I showcase my hands-on projects in **information security and cybersecurity** using different tools (see branches).  
+## In der Präsentation sind die folgenden beigefügt:
 
-## How to Use  
-1. **Explore Each Branch**: Click on the links above to view individual projects.  
-2. **Download PDFs**: Each project contains a detailed report with screenshots.  
-3. **Reach Out**: Feel free to connect for discussions or feedback!
+1. **Bedrohungsübersicht und Angreifer-Fähigkeiten**
 
-4. Thank you for your time!
+2. **MITRE ATT&CK Kill Chain Mapping**
+
+3. **Zielgruppenanalyse**
+
+4. **Unternehmensrisiken** 
+
+5. **Präventionsmaßnahmen**
+
+ZeroDayRAT ermöglicht eine umfassende Überwachung, darunter Geräteprofilierung, SMS-Überwachung, Keylogging, Live-Zugriff auf Kamera und Mikrofon, GPS-Tracking sowie Diebstahl von Bank- und Kryptowährungen. 
+
+Das Projekt wurde von mir initiiert, um ein besseres Verständnis für aktuelle Mobile-Bedrohungen zu entwickeln und das Security-Awareness-Bewusstsein zu stärken.
